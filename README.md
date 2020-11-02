@@ -10,5 +10,5 @@ O projeto consistirá em 5 grandes etapas:
 * Pesquisa e acquisição de conhecimento sobre o tema em questão
 * Formulação de hipóteses
 * Validação de hipóteses e análise exploratória de dados
-* Criação de um modelo
+* Criação do modelo
 * Avaliação do modelo
