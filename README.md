@@ -8,10 +8,10 @@
 # Metodologia
 
 O projeto consistirá em 4 grandes etapas:
-1. Análise exploratória de dados, na qual buscamos entender a natureza dos dados presentes no dataset e tentamos traçar possíveis direções de análise para o nosso problema
-2. Formulação e validação de hipóteses, nas quais, através do conhecimento advindo do cientista de dados ou de profissionais do ramo, junto com o conhecimento adquirido na exploração dos dados, geramos insights sobre o problema em questão e atestamos a veracidade/credibilidade de tais insights 
-3. Criação do modelo, etapa na qual escolhemos o modelo que melhor se adequa às características dos dados e possua melhor balanço entre explicabilidade e performance, dentro das necessidades do problema
-4. Avaliação do modelo, na qual comparamos o resultado obtido com o modelo base apresentado na introdução e avaliamos os resultados finais
+1. **Análise exploratória de dados**, na qual buscamos entender a natureza dos dados presentes no dataset e tentamos traçar possíveis direções de análise para o nosso problema
+2. **Formulação e validação de hipóteses**, nas quais, através do conhecimento advindo do cientista de dados ou de profissionais do ramo, junto com o conhecimento adquirido na exploração dos dados, geramos insights sobre o problema em questão e atestamos a veracidade/credibilidade de tais insights 
+3. **Criação do modelo**, etapa na qual escolhemos o modelo que melhor se adequa às características dos dados e possua melhor balanço entre explicabilidade e performance, dentro das necessidades do problema
+4. **Avaliação do modelo**, na qual comparamos o resultado obtido com o modelo base apresentado na introdução e avaliamos os resultados finais
 
 ## 1. Análise exploratória de dados
 
