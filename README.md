@@ -7,8 +7,9 @@
 # Metodologia
 
 O projeto consistirá em 5 grandes etapas:
-* Pesquisa e acquisição de conhecimento sobre o tema em questão
-* Formulação de hipóteses
-* Validação de hipóteses e análise exploratória de dados
-* Criação do modelo
-* Avaliação do modelo
+1. Pesquisa e acquisição de conhecimento sobre o tema em questão
+2. Formulação de hipóteses
+3. Validação de hipóteses e análise exploratória de dados
+4. Criação do modelo
+5. Avaliação do modelo
+
