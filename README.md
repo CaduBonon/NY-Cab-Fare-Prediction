@@ -7,15 +7,15 @@
   
   Our goal here is to create a model that can outperform the baseline solution proposed by Kaggle already (estimating the fare value based only on the distance between the pickup and dropoff locations)
   
-  This project was made with Python, using *Pandas*, 
+  This project was made with Python, using *Pandas*, *PySpark*
 
 # Project approach
 
 There are 4 main topics within this project:
-1. **Análise exploratória de dados**, na qual buscamos entender a natureza dos dados presentes no dataset e tentamos traçar possíveis direções de análise para o nosso problema
-2. **Formulação e validação de hipóteses**, nas quais, através do conhecimento advindo do cientista de dados ou de profissionais do ramo, junto com o conhecimento adquirido na exploração dos dados, geramos insights sobre o problema em questão e atestamos a veracidade/credibilidade de tais insights 
-3. **Criação do modelo**, etapa na qual escolhemos o modelo que melhor se adequa às características dos dados e possua melhor balanço entre explicabilidade e performance, dentro das necessidades do problema
-4. **Avaliação do modelo**, na qual comparamos o resultado obtido com o modelo base apresentado na introdução e avaliamos os resultados finais
+1. **Exploratory Data Analysis**, when we try to understand the nature of the data that we have and try to make sense of the possible paths to solve our problem
+2. **Hypothesys creation/testing**, when we, using the      nas quais, através do conhecimento advindo do cientista de dados ou de profissionais do ramo, junto com o conhecimento adquirido na exploração dos dados, geramos insights sobre o problema em questão e atestamos a veracidade/credibilidade de tais insights 
+3. **Model creation**, etapa na qual escolhemos o modelo que melhor se adequa às características dos dados e possua melhor balanço entre explicabilidade e performance, dentro das necessidades do problema
+4. **Model perfomance validation**, na qual comparamos o resultado obtido com o modelo base apresentado na introdução e avaliamos os resultados finais
 
 ## 1. Análise exploratória de dados
 
