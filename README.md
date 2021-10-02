@@ -2,7 +2,6 @@
 
   Este projeto consiste em desenvolver uma solução para o problema de estimar tarifas para viagens de táxi em Nova Iorque, Estados Unidos, listado na plataforma Kaggle, sob o link   https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/overview.
   
-  
   This project consists in developing a solution for estimating cab fare prices in New York City. The link for the challenge can be found [here](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/overview).
   
   Our goal here is to create a model that can outperform the baseline solution proposed by Kaggle already (estimating the fare value based only on the distance between the pickup and dropoff locations)
@@ -13,9 +12,9 @@
 
 There are 4 main topics within this project:
 1. **Exploratory Data Analysis**, when we try to understand the nature of the data that we have and try to make sense of the possible paths to solve our problem
-2. **Hypothesys creation/testing**, when we, using the      nas quais, através do conhecimento advindo do cientista de dados ou de profissionais do ramo, junto com o conhecimento adquirido na exploração dos dados, geramos insights sobre o problema em questão e atestamos a veracidade/credibilidade de tais insights 
-3. **Model creation**, etapa na qual escolhemos o modelo que melhor se adequa às características dos dados e possua melhor balanço entre explicabilidade e performance, dentro das necessidades do problema
-4. **Model perfomance validation**, na qual comparamos o resultado obtido com o modelo base apresentado na introdução e avaliamos os resultados finais
+2. **Hypothesis creation/testing**, when we, using our previoulsy professional knowledge and also studying more about the problem and it's specific characteristics, come up with insights about the data and then evaluate if those insights make sense and are sustaneid when looking into the data.
+3. **Model creation**, whe we create our first model (our simplest model) etapa na qual escolhemos o modelo que melhor se adequa às características dos dados e possua melhor balanço entre explicabilidade e performance, dentro das necessidades do problema
+4. **Model perfomance evaluation**, na qual comparamos o resultado obtido com o modelo base apresentado na introdução e avaliamos os resultados finais
 
 ## 1. Análise exploratória de dados
 
