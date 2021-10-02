@@ -1,13 +1,17 @@
-# Introdução
+# Introduction
 
   Este projeto consiste em desenvolver uma solução para o problema de estimar tarifas para viagens de táxi em Nova Iorque, Estados Unidos, listado na plataforma Kaggle, sob o link   https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/overview.
-  O projeto foi resolvido em Python, fazendo uso das bibliotecas *Pandas*, *Dask*, *Sci-kit learn*.
+  
+  
+  This project consists in developing a solution for estimating cab fare prices in New York City. The link for the challenge can be found [here](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/overview).
+  
+  Our goal here is to create a model that can outperform the baseline solution proposed by Kaggle already (estimating the fare value based only on the distance between the pickup and dropoff locations)
+  
+  This project was made with Python, using *Pandas*, 
 
-  Nosso objetivo é desenvolver um modelo que seja capaz de performar melhor do que a solução base, a qual consiste em estimar a tarifa usando apenas a distância entre os pontos de   início e fim da viagem.
+# Project approach
 
-# Metodologia
-
-O projeto consiste em 4 grandes etapas:
+There are 4 main topics within this project:
 1. **Análise exploratória de dados**, na qual buscamos entender a natureza dos dados presentes no dataset e tentamos traçar possíveis direções de análise para o nosso problema
 2. **Formulação e validação de hipóteses**, nas quais, através do conhecimento advindo do cientista de dados ou de profissionais do ramo, junto com o conhecimento adquirido na exploração dos dados, geramos insights sobre o problema em questão e atestamos a veracidade/credibilidade de tais insights 
 3. **Criação do modelo**, etapa na qual escolhemos o modelo que melhor se adequa às características dos dados e possua melhor balanço entre explicabilidade e performance, dentro das necessidades do problema
