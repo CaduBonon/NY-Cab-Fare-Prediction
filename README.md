@@ -12,12 +12,18 @@
 
 There are 4 main topics within this project:
 1. **Exploratory Data Analysis**, when we try to understand the nature of the data that we have and try to make sense of the possible paths to solve our problem
-2. **Hypothesis creation/testing**, when we, using our previoulsy professional knowledge and also studying more about the problem and it's specific characteristics, come up with insights about the data and then evaluate if those insights make sense and are sustaneid when looking into the data.
-3. **Model creation**, whe we create our first model (our simplest model) etapa na qual escolhemos o modelo que melhor se adequa às características dos dados e possua melhor balanço entre explicabilidade e performance, dentro das necessidades do problema
-4. **Model perfomance evaluation**, na qual comparamos o resultado obtido com o modelo base apresentado na introdução e avaliamos os resultados finais
+2. **Hypothesis creation/testing**, when we, using our previoulsy professional knowledge and also studying more about the problem and it's specific characteristics, come up with insights about the data and then evaluate if those insights make sense and are sustaneid when looking into the data
+3. **Model creation**, when we create our first model (our simplest model) to see how it behaves
+4. **Model perfomance evaluation**, when we compare the perfomance of our simplest model with Kaggle's baseline solution to see how we have performed and check if further tuning of the model is needed
+5. **Model fine tuning**
 
-## 1. Análise exploratória de dados
 
-O primeiro ponto a ser notado ao observarmos o arquivo contendo o conjunto de dados é que o tamanho do mesmo é de aproximadamente 5.5 Gb. Este projeto está sendo realizado em um notebook que contém 8 Gb de memória RAM, o que torna inviável abrir os 5.5 Gb dados de uma só vez na memória do computador. Para computarmos as estatísticas e visualizações necessárias em nossa EDA (Análise exploratória de dados), precisamos de uma ferramenta que possibilite trabalharmos com o nosso dataset de maneira eficiente e que não estoure a memória do notebook. Entra em cena então a biblioteca *Dask* para Python. 
+<details>
+<summary>Exploratory Data Analysis</summary>
+  
+  The first thing we notice is that the file that the main file with our data has almost 6 GB of disk space. O primeiro ponto a ser notado ao observarmos o arquivo contendo o conjunto de dados é que o tamanho do mesmo é de aproximadamente 5.5 Gb. Este projeto está sendo realizado em um notebook que contém 8 Gb de memória RAM, o que torna inviável abrir os 5.5 Gb dados de uma só vez na memória do computador. Para computarmos as estatísticas e visualizações necessárias em nossa EDA (Análise exploratória de dados), precisamos de uma ferramenta que possibilite trabalharmos com o nosso dataset de maneira eficiente e que não estoure a memória do notebook. Entra em cena então a biblioteca *Dask* para Python. 
 
-Através do *Dask*, podemos trabalhar com o nosso conjunto de dados de forma paralelizada e fazendo uso dos múltiplos processadores presentes no computador. Isso torna possível o processamento de datasets maiores do que a memória do notebook, processando-os em partes.
+  Através do *Dask*, podemos trabalhar com o nosso conjunto de dados de forma paralelizada e fazendo uso dos múltiplos processadores presentes no computador. Isso torna possível o processamento de datasets maiores do que a memória do notebook, processando-os em partes.
+</details>
+
+
