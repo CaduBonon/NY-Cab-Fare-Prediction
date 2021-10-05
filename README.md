@@ -4,9 +4,7 @@
   
   This project consists in developing a solution for estimating cab fare prices in New York City. The link for the challenge can be found [here](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/overview).
   
-  Our goal here is to create a model that can outperform the baseline solution proposed by Kaggle already (estimating the fare value based only on the distance between the pickup and dropoff locations)
-  
-  This project was made with Python, using *Pandas*, *PySpark*
+  Our goal here is to create a model that can outperform the baseline solution already proposed by Kaggle (estimating the fare value based only on the distance between the pickup and dropoff locations)
 
 # Project approach
 
