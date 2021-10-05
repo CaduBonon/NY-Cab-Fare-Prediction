@@ -19,7 +19,7 @@ There are 4 main topics within this project:
 <details>
 <summary>Exploratory Data Analysis</summary>
   
-  The first thing we notice is that the main file with our data has almost 6 GB of disk space. I'm using a notebook with 8 GB of RAM, so it's no feasible to open the whole dataset at once in memory. Para computarmos as estatísticas e visualizações necessárias em nossa EDA (Análise exploratória de dados), precisamos de uma ferramenta que possibilite trabalharmos com o nosso dataset de maneira eficiente e que não estoure a memória do notebook. Entra em cena então a biblioteca *Dask* para Python. 
+  _The first thing we notice is that the main file with our data has almost 6 GB of disk space. I'm using a notebook with 8 GB of RAM, so it's no feasible to open the whole dataset at once in memory. Para computarmos as estatísticas e visualizações necessárias em nossa EDA (Análise exploratória de dados), precisamos de uma ferramenta que possibilite trabalharmos com o nosso dataset de maneira eficiente e que não estoure a memória do notebook. Entra em cena então a biblioteca *Dask* para Python. 
 
   Através do *Dask*, podemos trabalhar com o nosso conjunto de dados de forma paralelizada e fazendo uso dos múltiplos processadores presentes no computador. Isso torna possível o processamento de datasets maiores do que a memória do notebook, processando-os em partes.
 </details>
